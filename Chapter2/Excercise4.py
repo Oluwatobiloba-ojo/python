@@ -6,3 +6,5 @@ if result == 0:
     print("It is an even number")
 if result != 0:
     print("It is an odd number")
+
+# refactor this if statement
