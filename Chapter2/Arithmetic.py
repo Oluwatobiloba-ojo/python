@@ -24,3 +24,6 @@ if number3 > maximum:
     print("Product of the numbers are", product)
     print("Minimum value is ", minimum)
     print("Maximum value is ", maximum)
+
+# refactor to use one print
+# use a python file naming convention to name your files
