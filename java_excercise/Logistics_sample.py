@@ -1,5 +1,4 @@
 base_pay = 5000
-result = 0
 
 
 def allowance(percentage):

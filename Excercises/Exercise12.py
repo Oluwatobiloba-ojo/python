@@ -1,4 +1,3 @@
-
 age = int(input("Enter an age: "))
 if age < 18:
     print("you are not eligible to enter our club...")
