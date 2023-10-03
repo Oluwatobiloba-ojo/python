@@ -8,7 +8,7 @@ for count in range(1, 10):
         print(" ", end=" ")
     for row in range(count, 10):
         print("*", end="")
-    for space in range(1, count):
+    for space in range(1, count+1):
         print(" ", end="")
     for space in range(1, count):
         print(" ", end="")

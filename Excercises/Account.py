@@ -10,7 +10,7 @@ class Account:
             self.__balance += amount
 
     def withdraw(self, amount):
-        if self.__balance >= amount:
+        if self.__balance >= amount > 0:
             self.__balance -= amount
 
     def transfer_to(self, account, amount):

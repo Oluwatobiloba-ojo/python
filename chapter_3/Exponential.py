@@ -5,4 +5,4 @@ while count <= 10:
     addition = addition * (1 / count)
     product += addition
     count += 1
-    print(product)
+print(product)
