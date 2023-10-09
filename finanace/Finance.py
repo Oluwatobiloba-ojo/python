@@ -45,3 +45,5 @@ def add(number):
         number //= 10
     return total
 
+# naming your python file should snake or camel case
+
