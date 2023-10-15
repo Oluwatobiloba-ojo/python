@@ -44,3 +44,4 @@ def add(number):
         total += digit
         number //= 10
     return total
+
