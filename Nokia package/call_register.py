@@ -99,9 +99,17 @@ def Clock():
     6 -> Auto update of date and time
     """)
     clock = int(input("Enter your response: "))
-    if clock == 1: print("Alarm clock")
-    elif clock == 2: print("Clock setting")
-    elif clock == 3: print("Date Setting")
-    elif clock == 4: print('Stop watch')
-    elif clock == 5: print("Count down timer")
-    elif clock == 6: print("Auto update of time and date")
+    if clock == 1:
+        print("Alarm clock")
+    elif clock == 2:
+        print("Clock setting")
+    elif clock == 3:
+        print("Date Setting")
+    elif clock == 4:
+        print('Stop watch')
+    elif clock == 5:
+        print("Count down timer")
+    elif clock == 6:
+        print("Auto update of time and date")
+    else:
+        print("Invalid input ")

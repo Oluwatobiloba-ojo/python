@@ -1,3 +1,5 @@
+from Add_name import Add_name
+
 
 def phoneBook():
     print("""
@@ -19,7 +21,7 @@ def phoneBook():
     elif response == 2:
         print("Service Nos")
     elif response == 3:
-        print("Add name ")
+        Add_name()
     elif response == 4:
         print("Erase ")
     elif response == 5:

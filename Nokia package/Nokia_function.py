@@ -53,12 +53,18 @@ def Setting():
             6 -> Automatic answer
             """)
         callS = int(input("Enter your response:"))
-        if callS == 1: print("Automatic redial")
-        elif callS == 2: print("Speed Dialling")
-        elif callS == 3: print("Call Waiting Option")
-        elif callS == 4: print("Own number Sending")
-        elif callS == 5: print("Phone Line In Use")
-        elif callS == 6: print("Automatic answer")
+        if callS == 1:
+            print("Automatic redial")
+        elif callS == 2:
+            print("Speed Dialling")
+        elif callS == 3:
+            print("Call Waiting Option")
+        elif callS == 4:
+            print("Own number Sending")
+        elif callS == 5:
+            print("Phone Line In Use")
+        elif callS == 6:
+            print("Automatic answer")
     elif setting == 2:
         print("""
         1 -> Language
@@ -69,12 +75,18 @@ def Setting():
         6 -> Confirms Sim service action
         """)
         phoneS = int(input("Enter your response: "))
-        if phoneS == 1: print("Language")
-        elif phoneS == 2: print("Cell info display: ")
-        elif phoneS == 3: print("Welcome note")
-        elif phoneS == 4: print("Network selection")
-        elif phoneS == 5: print("Lights")
-        elif phoneS == 6: print("Confirms Sim service action")
+        if phoneS == 1:
+            print("Language")
+        elif phoneS == 2:
+            print("Cell info display: ")
+        elif phoneS == 3:
+            print("Welcome note")
+        elif phoneS == 4:
+            print("Network selection")
+        elif phoneS == 5:
+            print("Lights")
+        elif phoneS == 6:
+            print("Confirms Sim service action")
     elif setting == 3:
         print("""
             1 -> PIN code request
@@ -85,10 +97,17 @@ def Setting():
             6 -> Change access code 
             """)
         phoneS = int(input("Enter the response: "))
-        if phoneS == 1: print("One")
-        elif phoneS == 2: print("Calling barrier service")
-        elif phoneS ==3: print("Fixed dialling")
-        elif phoneS == 4: print("Closed user gropup")
-        elif phoneS == 5: print("Phone security")
-        elif phoneS == 6: print("Change access code: ")
-    elif setting == 4: print("Restore Factory setting")
+        if phoneS == 1:
+            print("One")
+        elif phoneS == 2:
+            print("Calling barrier service")
+        elif phoneS == 3:
+            print("Fixed dialling")
+        elif phoneS == 4:
+            print("Closed user gropup")
+        elif phoneS == 5:
+            print("Phone security")
+        elif phoneS == 6:
+            print("Change access code: ")
+    elif setting == 4:
+        print("Restore Factory setting")

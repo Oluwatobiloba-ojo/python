@@ -5,10 +5,7 @@ def is_palindrome(number):
         value = number % 10
         reverse = reverse * 10 + value
         number //= 10
-    if temp_Number == reverse:
-        return True
-    else:
-        return False
+    return temp_Number == reverse
 
 
-print(is_palindrome(1112111))
+# print(is_palindrome(-1112111))

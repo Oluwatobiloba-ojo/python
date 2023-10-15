@@ -11,8 +11,7 @@ state_amount = state_rate * gross_pay // 100
 Total_Deduction = federal_rate + state_rate
 net_pay = gross_pay - Total_Deduction
 
-print(f""""
-
+print(f"""
     Employer name is: {name}
     Hours worked is: {hour}
     Pay rate is : {hour_rate}

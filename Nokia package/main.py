@@ -2,9 +2,10 @@ from Message import function_message
 from Nokia_function import Tones, Setting
 from call_register import CallRegister, Clock
 from phoneBook import phoneBook
+from Calculator import Calculator
 
 
-print("""
+response = int(input("""
     1 -> PhoneBook
     2 -> Message
     3 -> Chat
@@ -18,8 +19,7 @@ print("""
     11 -> Clock
     12 -> Profiles
     13 -> Sim Service
-    """)
-response = int(input("Enter your options "))
+    """))
 if response == 1:
     phoneBook()
 elif response == 2:
@@ -37,7 +37,7 @@ elif response == 7:
 elif response == 8:
     print("Games")
 elif response == 9:
-    print("Calculator")
+    Calculator()
 elif response == 10:
     print("Reminder")
 elif response == 11:

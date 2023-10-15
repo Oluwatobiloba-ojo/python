@@ -13,9 +13,9 @@ def credit_card_type(card_details):
             result = 'Discover Cards'
         else:
             result = 'Invalid'
-        return result
     else:
-        return "Invalid input"
+        result = "Invalid input"
+    return result
 
 
 def validate_credit_cards(numbers):
@@ -44,4 +44,3 @@ def add(number):
         total += digit
         number //= 10
     return total
-
