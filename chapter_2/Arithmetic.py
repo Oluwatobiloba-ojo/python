@@ -26,6 +26,3 @@ if number3 > maximum:
         The largest number is {maximum}
         The smallest number is {minimum}
         """)
-
-# refactor to use one print
-# use a python file naming convention to name your files
